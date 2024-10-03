@@ -6,22 +6,34 @@
   padding: 0px;
 }
 
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
 body{
   font-family: Arial, Helvetica, sans-serif;
   background-color: #c5ebd6;
-  }
+  margin-top: 0px; 
+  margin-left: 0px;
+  margin-right: 0px; 
+}
+
 header{
   text-align: center;
   background: linear-gradient(to top, rgb(32, 116, 81), rgba(41, 146, 102, 0.692));
-  padding:10px;
+  padding:20px;
   text-shadow: 2px 1px 1px 1px rgb(143, 0, 0);
-  margin: -10px;
+  
   color: white;
+ 
  
 }
 nav{
 text-align: start;
-margin-top: 30px;
+font-weight: bold;
+padding-top: 50px ;
+margin-top: 40px;
+
 
 }
 nav > a{
@@ -29,6 +41,7 @@ nav > a{
   color: white;
   margin-right: 8px;
   transition: background-color 0.15s
+  
 }
 header > h1{
   text-shadow: 1px 2px 2px  rgba(0, 0, 0, 0.637);
@@ -39,6 +52,10 @@ text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.637);
 main{
   background-color: white;
   margin: -20px 145px 10px 145px;
+  max-width: 800px;
+  min-width: 320px;
+  margin: auto;
+  padding-top: 13px;
   
 }
 article > h2{
@@ -46,7 +63,7 @@ article > h2{
 
 }
 img{
- 
+ width: 100%;
 }
 div{
   background-color:rgb(26, 92, 56);
@@ -70,7 +87,9 @@ border-radius: 20px;
   
 }
 ul{
-  display: inline-block;
+  list-style-position: inside; 
+  columns: 2; 
+ 
 }
 h2{
   color: white;
@@ -88,6 +107,20 @@ h3{
   border-bottom-left-radius: 20px;
 
   }
+  .video{
+    padding: 0px;
+    position: relative;
+    padding-bottom: 58.5%;
+    border: none;
+  }
+  .video > iframe{
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 90% ;
+  height: 90%;
+  }
+  
   .eu > p{
     text-decoration: none;
     color: black;
@@ -95,6 +128,7 @@ h3{
   a{
     color: green;
     text-decoration: none;
+    font-weight: bold;    
   }
   nav > a:hover{
     background-color: green;
@@ -113,3 +147,9 @@ h3{
   strong{
     color: green;
   }
+section > footer {
+  text-decoration: none;
+}
+aside{
+  margin-top: 20px;
+}
